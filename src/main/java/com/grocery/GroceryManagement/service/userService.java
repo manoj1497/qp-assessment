@@ -59,9 +59,6 @@ public class userService {
         order.setItems(orderList);
         order.setTotalAmount(totalAmount);
 
-        // Save the Order
-        //orderRepository.save(order);
-
         // Save all OrderItems
         orderRepository.saveAll(orderList);
 
